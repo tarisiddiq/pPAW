@@ -1,6 +1,4 @@
 <?php
-
-session_start();
 date_default_timezone_set("Asia/Jakarta");
  include"admin/config/koneksi.php";
  if(empty($_SESSION['email'])){
